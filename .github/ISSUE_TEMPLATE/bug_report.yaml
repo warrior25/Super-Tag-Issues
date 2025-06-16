@@ -42,3 +42,9 @@ body:
       default: 0
     validations:
       required: true
+  - type: checkboxes
+    attributes:
+      label: Additional Information
+      options:
+        - label: I have checked that this bug has not been already reported by other users
+          required: true
